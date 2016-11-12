@@ -3,7 +3,7 @@
 var mongoose = require('mongoose');
 
 // todo.name
-//todo.completed
+// todo.completed
 
 var todoSchema = new mongoose.Schema({
 	name: String,
