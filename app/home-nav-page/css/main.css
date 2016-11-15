@@ -184,18 +184,18 @@ COLORS
 /* site body */
 body{
   background-color: #fff;
-  color: #999;
+  color: #ff0000
 }
 
 /* black header */
 header {
   background: #000;
-  border-color:#3322ad;
+  border-color:#ff0000
 }
 
 /* nav background on mobile devices*/
 nav {
-  background:#3322ad;
+  background:#fff;
 }
 
 /* logo text */
