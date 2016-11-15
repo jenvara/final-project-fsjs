@@ -2,11 +2,11 @@ body {
   color: #2d3339;
   font-family: "Varela Round";
   text-align: center;
-  background: #edeff0;
+  background: #C0C0C0;
   font-size: 16px; }
 
 a {
-  color: #3f8abf;
+  color: #FF000;
   text-decoration: none; }
   a:hover {
     color: #65a1cc; }
