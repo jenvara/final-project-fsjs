@@ -4,7 +4,7 @@
   "description": "This is the course repo for [Building a MEAN Application](https://teamtreehouse.com/library/building-a-mean-application) on [Treehouse](https://teamtreehouse.com/) by Huston Hedinger and Ken Howard.",
   "main": "src/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,8 @@
     "angular": "^1.4.8",
     "body-parser": "1.14.2",
     "express": "4.13.4",
-    "mongoose": "4.4.5"
+    "mongoose": "4.4.5",
+    "nodemon": "^1.11.0"
   },
   "devDependencies": {
     "webpack": "1.12.14"
