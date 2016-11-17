@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/jenvara/final-project-fsjs/issues"
   },
-  "homepage": "https://github.com/jenvara/final-project-fsjs#readme"
+  "homepage": "https://github.com/jenvara/final-project-fsjs#readme",
+  "dependencies": {
+    "mongoose": "^4.6.8"
+  }
 }
