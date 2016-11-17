@@ -1,4 +1,4 @@
-##Final Project FSJS Syllabus Interactive Checklist
+m##Final Project FSJS Syllabus Interactive Checklist
 **This project was created for the Code Louisville Full-Stack JavaScript course. It is for demonstration purposes utilizing skills and projects from my Treehouse courses. This application was built with the MEAN stack (Mongo, Express, Angular, and Node).**
 
 ##WebApp Description
@@ -24,7 +24,7 @@ Steps needed to install my project locally (to run and view):
 5. Third command prompt, start Webpack by typing: webpack --watch (hit enter).
 6. Open a localhost window by opening a tab in Chrome, Firefox, etc. type: http://localhost:3000 (hit enter).
 
-Project Requireents
+Project Requirements
 - Get project approval - October 18th
 - Project is responsive to different devices/browers sizes/resolutions - Yes
 - Project written primarily using JavaScript MEAN stack - Yes (app is)
