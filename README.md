@@ -1,4 +1,4 @@
-m##Final Project FSJS Syllabus Interactive Checklist
+##Final Project FSJS Syllabus Interactive Checklist
 **This project was created for the Code Louisville Full-Stack JavaScript course. It is for demonstration purposes utilizing skills and projects from my Treehouse courses. This application was built with the MEAN stack (Mongo, Express, Angular, and Node).**
 
 ##WebApp Description
@@ -17,9 +17,7 @@ Steps needed to install my project locally (to run and view):
 
 1. [Clone my project from this repository](https://github.com/jenvara/final-project-fsjs.git). 
 2. You will need 3 command prompts (terminal windows) to run this project:
-3. First command prompt, go to root directory of project (../../final-project-syllabus-todolist/app/todo-app). 
-- Run 'npm install' to install the necessary packages by typing: npm install (hit enter). 
-- Once installed, run 'nodemon' or 'npm start' by typing: nodemon (hit enter) or npm start (hit enter).
+3. First command prompt, go to root directory of project (../../final-project-syllabus-todolist/app/todo-app). Run 'npm install' to install the necessary packages by typing: npm install (hit enter). Once installed, run 'nodemon' or 'npm start' by typing: nodemon (hit enter) or npm start (hit enter).
 4. Second command prompt, start MongoDB by typing: mongod (hit enter). You may not need this if you have MongoDB already running in the background.
 5. Third command prompt, start Webpack by typing: webpack --watch (hit enter).
 6. Open a localhost window by opening a tab in Chrome, Firefox, etc. type: http://localhost:3000 (hit enter).
