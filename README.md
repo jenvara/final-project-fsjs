@@ -1,4 +1,4 @@
-. 1.##Final Project FSJS Syllabus Interactive Checklist
+##Final Project FSJS Syllabus Interactive Checklist
 **This project was created for the Code Louisville Full-Stack JavaScript course. It is for demonstration purposes utilizing skills and projects from my Treehouse courses. This application was built with the MEAN stack (Mongo, Express, Angular, and Node).**
 
 ##WebApp Description
