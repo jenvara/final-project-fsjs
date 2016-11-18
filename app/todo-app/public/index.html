@@ -1,27 +1,78 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <title></title>
-  <link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="/styles/main.css" type="text/css">
-</head>
-<body ng-app="todoListApp">
+<!-- Problem: html needed for simple to-do list web app -->
+<!DOCTYPE html>
+<html>
+  <!-- Head with links to css stylesheets that allows for window and sizing responsivenss depending on devices used -->
+  <head>
+    <meta charset="utf-8">
+    <title>Code Louisville | FSJS Syllabus</title>
+    <!-- Styles and links to stylesheets to adjusts -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href='https://fonts.googleapis.com/css?family=Bad+Script|Lilita+One|Ovo' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <!-- Body --><!-- Main body wih site navigation -->
+  <body>
+    <header>   
+      <a href="index.html" id="logo">
+        <h1>Code Louisville</h1>
+        <h2>Syllabus App</h2>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="index.html" class=:selected>Portfolio</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Div's with images linked to pages with paragraph descriptions -->
+    <div id="wrapper">
+      <section> 
+        <ul id="gallery">
+          <li>
+            <a href="https://github.com/CodeLouisville/Student-Resources/wiki/FSJS-Syllabus" target="_blank">
+              <img src="img/syllabus.jpg" alt="">
+              <!-- <p>Will link to FSJS Syllabus.</p> -->
+              </a>
+          </li>
+          <li>
+            <a href="http://localhost:3000/todo.html">
+              <img src="img/toDoList.jpg" alt="">
+              <!-- <p>Will link to interactive To-Do List.</p> -->
+              </a>
+          </li>
+          <li>
+            <a href="https://github.com/CodeLouisville/FSJS-Weekly-Challenges" target="_blank">
+              <img src="img/codeChallenge.jpg " alt="">
+              <!-- <p>Links to FSJS Weekly Challenges</p> -->
+              </a>
+          </li>
 
-  <ng-include src="'templates/navbar.html'"></ng-include>
+          <!--  Placeholders for future development -->
+          <!--           <li>
+            <a href="img/sandClock.jpg">
+              <img src="img/sandClock.jpg" alt="">
+              <p>May link to timer.</p></a>
+          </li> -->
 
-  <h1>FSJS Syllabus Checklist</h1>
+          <!-- Placeholder for future development -->
+          <!--       <li>
+            <a href="img/numbers-12.jpg">
+              <img src="img/numbers-12.jpg" alt="">
+              <p>Placeholder</p></a>
+          </li> -->
+        </ul>
+      </section>
+      <!-- Footer with social media icons and links to Code Louisville social media sites -->
+      <footer>
+        <a href="https://twitter.com/codelouisville"><img src="img/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
 
-  <div class="list" ng-controller="mainCtrl">
-    <div class="add">
-      <a href="#" ng-click="addTodo()">
-        + Add a New Objective</a>
-      </div>
-    <todo></todo>
-   </div>
-
-<!-- Bundled code in vender and todo files -->
-
-  <script src="/scripts/vendor.bundle.js"></script>
-  <script src="/scripts/todo.bundle.js"></script>
-</body>
+        <a href="https://www.facebook.com/codelouisville/"><img src="img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
+        
+        <p>&copy; 2016 Jennifer Varahala.</p>
+      </footer>
+    </div> 
+  </body>
 </html>
