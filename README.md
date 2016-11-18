@@ -20,9 +20,9 @@ Steps needed to install my project locally (to run and view):
 3. First command prompt, go to root directory of project (../../final-project-fsjs/app/todo-app). Run 'npm install' to install the necessary packages by typing: npm install (hit enter). Once installed, run 'nodemon' or 'npm start' by typing: nodemon (hit enter) or npm start (hit enter).
 4. Second command prompt, start MongoDB by typing: mongod (hit enter). You may not need this if you have MongoDB already running in the background.
 5. Third command prompt, start Webpack by typing: webpack --watch (hit enter).
-6. Go to root directory (../../final-project-syllabus-todolist/app/home-nav-page) right click on index.html and open with Chrome, Firefox, etc. Click To-Do-List Icon for checklist app.
+5. Open Chrome, Firefox, etc and type: http://localhost:3000/.
 
-Project Requirements
+##Project Requirements
 - Get project approval - October 18th
 - Project is responsive to different devices/browers sizes/resolutions - Yes
 - Project written primarily using JavaScript MEAN stack - Yes (app is)
@@ -31,5 +31,5 @@ Project Requirements
 - Back-end: Implenet Node.js, Express.js, build/use NoSQL database with MongoDB, & implement CRUD functions, minimum Read and Write to your database - Yes
 - Code has comments, explaining each major step - Yes
 - Able to use frameworks, packages and other platforms (Bootstrap) - Yes
--  Include README file- Yes
+- Include README file- Yes
 - Your project code is on your GitHub account in its own repository - Yes
