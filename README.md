@@ -1,15 +1,35 @@
-Final Project To Do List
+##Final Project FSJS Syllabus Interactive Checklist
+**This project was created for the Code Louisville Full-Stack JavaScript course. It is for demonstration purposes utilizing skills and projects from my Treehouse courses. This application was built with the MEAN stack (Mongo, Express, Angular, and Node).**
 
-1. Description of my Code Louisville FSJS web app final project: It will be an interactive FSJS Course Syllabus To-Do List. It will tract where you are at in your syllabus, show you which week you should be on, and have checkboxes for each Treehouse Course section to mark complete. It will have buttons to add your weekly code challenges. Finally, it will have a page to track the progress of your final project for the course.
-2. Requirements: Download/install NodeJs: https://nodejs.org/en/, Download/install Mongodb: https://www.mongodb.com/.
-3. Steps needed to run and view: The app needs you to open command prompt and open file directory: final-project-fsjs/app/todo-app. Then install the following: npm install mongod --save, npm install express --save, npm install angualr --save, npm install body-parser --save, npm install mongoose --save, npm install nodemon --save, npm install webpack --save -dev. After the following packages, open two command prompts both open to the file directory: final-project-fsjs/app/todo-app. One command prompt run: webpack --watch. Second command prompt run: nodemon. You may need to run mongod (as I have it always running in the background on my computer). If you need, third command prompt run: mongod. Web app can be viewed: final-project-fsjs/app/home-nav-page, then right click and open index.html using "Open with" Chrome, Firefox, etc or double clicking on file.
-4. Get project approval - October 18th
-5. Project is responsive to different devices/browers sizes/resolutions - Yes
-6. Project written primarily using JavaScript MEAN stack - Yes (app is)
-7. Project must implement both a front-end and back-end componenet: 
-8. Front-end: HTML, CSS, JavaScript, front-end JavaScript framework & default to AngularJS or another front-end JS framework -Yes
-9. Back-end: Implenet Node.js, Express.js, build/use NoSQL database with MongoDB, & implement CRUD functions, minimum Read and Write to your database - Yes
-10. Code has comments, explaining each major step - Yes
-11. Able to use frameworks, packages and other platforms (Bootstrap) - Yes
-12. Include README file- Yes
-13. Your project code is on your GitHub account in its own repository - Yes
+##WebApp Description
+My web app site has links to important Code Louisville rescourses and an interactive checklist that has requirements for our FSJS course. 
+- Website that is responsive to different device window sizes and links to my FSJS checklist.
+- The checklist is loaded with the FSJS course objectives.
+- It has the ability to add, edit and delete objectives as needed and keep them stored. 
+
+##Requirements for Installation and Viewing Project
+System Installations:
+
+- [Node.js](https://nodejs.org/en/download/)
+- [MongoDB](https://docs.mongodb.com/manual/installation/)
+
+Steps needed to install my project locally (to run and view):
+
+1. [Clone my project from this repository](https://github.com/jenvara/final-project-fsjs.git). 
+2. You will need 3 command prompts (terminal windows) to run this project:
+3. First command prompt, go to root directory of project (../../final-project-fsjs/app/todo-app). Run 'npm install' to install the necessary packages by typing: npm install (hit enter). Once installed, run 'nodemon' or 'npm start' by typing: nodemon (hit enter) or npm start (hit enter).
+4. Second command prompt, start MongoDB by typing: mongod (hit enter). You may not need this if you have MongoDB already running in the background.
+5. Third command prompt, start Webpack by typing: webpack --watch (hit enter).
+6. Go to root directory (../../final-project-syllabus-todolist/app/home-nav-page) right click on index.html and open with Chrome, Firefox, etc. Click To-Do-List Icon for checklist app.
+
+Project Requirements
+- Get project approval - October 18th
+- Project is responsive to different devices/browers sizes/resolutions - Yes
+- Project written primarily using JavaScript MEAN stack - Yes (app is)
+- Project must implement both a front-end and back-end componenet: 
+- Front-end: HTML, CSS, JavaScript, front-end JavaScript framework & default to AngularJS or another front-end JS framework -Yes
+- Back-end: Implenet Node.js, Express.js, build/use NoSQL database with MongoDB, & implement CRUD functions, minimum Read and Write to your database - Yes
+- Code has comments, explaining each major step - Yes
+- Able to use frameworks, packages and other platforms (Bootstrap) - Yes
+-  Include README file- Yes
+- Your project code is on your GitHub account in its own repository - Yes
